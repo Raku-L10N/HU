@@ -1,0 +1,41 @@
+=begin pod
+
+=head1 NAME
+
+L10N::HU - Hungarian localization of Raku
+
+=head1 SYNOPSIS
+
+=begin output
+$ hunku -e 'mond "Helló Világ"'
+Helló Világ
+=end output
+
+=begin code :lang<raku>
+
+use L10N::HU;
+mond "Helló Világ";
+
+=end code
+
+=head1 DESCRIPTION
+
+The C<L10N::HU> distribution contains the logic to provide a Hungarian
+localization of the Raku Programming Language.  It installs a
+C<hunku> executable that will automatically activate the Hungarian
+localization.  And it allows one to use the Hungarian localization
+in selected programs with a C<use L10N::HU> statement.
+
+=head1 AUTHORS
+
+Polgár Márton (Martin Burger)
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2023, 2025 Raku Localization Team
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4
