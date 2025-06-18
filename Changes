@@ -1,6 +1,8 @@
 Revision history for L10N-HU
 
 {{$NEXT}}
+
+0.0.2  2025-06-18T15:07:22+02:00
     - Add support for "hunku" executable
     - Update several translations
     - Update copyright year
