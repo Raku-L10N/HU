@@ -33,7 +33,7 @@ This library is free software; you can redistribute it and/or modify it under th
 =end pod
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-18T15:05:09+02:00 by ./update-localization
+#- Generated on 2025-06-27T18:35:22+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::HU {

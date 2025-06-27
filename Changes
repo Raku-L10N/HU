@@ -2,6 +2,9 @@ Revision history for L10N-HU
 
 {{$NEXT}}
 
+0.0.3  2025-06-27T18:35:52+02:00
+    - Updated internals to new L10N file layout
+
 0.0.2  2025-06-18T15:07:22+02:00
     - Add support for "hunku" executable
     - Update several translations
