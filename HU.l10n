@@ -198,6 +198,7 @@ core-indent     behúzás
 core-index      index
 core-indices    indexek
 #core-indir      indir
+#core-invert     invert
 core-is         ez
 core-is-approx  nagyjából
 core-is-deeply  teljesen

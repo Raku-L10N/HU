@@ -13,6 +13,7 @@ Helló Világ
 
 =begin code :lang<raku>
 
+# Must have RAKUDO_RAKUAST=1 environment variable set
 use L10N::HU;
 mond "Helló Világ";
 
