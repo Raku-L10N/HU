@@ -99,7 +99,11 @@ constraint-where  ahol
 
 # KEY                  TRANSLATION
 core-abs               absz
+#core-accessed          accessed
+#core-actions           actions
+#core-add               add
 core-all               mind
+#core-antipair          antipair
 core-antipairs         antipárok
 core-any               bármelyik
 core-append            hozzáfűz
@@ -116,28 +120,38 @@ core-append            hozzáfűz
 #core-atomic-sub-fetch  atomic-sub-fetch
 core-await             kivár
 
-# KEY          TRANSLATION
-core-bag       zsák
-core-bail-out  kiment
-core-bless     megáld
+# KEY           TRANSLATION
+#core-backtrace  backtrace
+core-bag        zsák
+core-bail-out   kiment
+#core-base       base
+#core-batch      batch
+core-bless      megáld
 
 # KEY              TRANSLATION
+#core-cache         cache
 #core-callframe     callframe
 #core-callsame      callsame
 #core-callwith      callwith
 #core-can-ok        can-ok
+#core-caps          caps
 #core-cas           cas
 core-categorize    rendszerez
 core-ceiling       felső-egészrész
+#core-changed       changed
 core-chars         betűk
 #core-chdir         chdir
+#core-child         child
 #core-chmod         chmod
 core-chomp         levág-sorvég
 core-chop          levág
 #core-chown         chown
 core-chr           betűként
 core-chrs          betűkként
+#core-chunks        chunks
 core-classify      osztályoz
+#core-cleanup       cleanup
+#core-clone         clone
 core-close         bezár
 #core-cmp-ok        cmp-ok
 core-codes         kódok
@@ -147,29 +161,42 @@ core-combinations  kombinációk
 core-contains      tartalmaz
 core-cross         kereszt
 
-# KEY         TRANSLATION
-core-decode   dekódol
-core-deepmap  mély-hozzárendel
-core-defined  definiált
-#core-diag     diag
-core-die      meghal
-#core-dies-ok  dies-ok
-#core-dir      dir
-#core-does-ok  does-ok
-core-done     kész
-core-duckmap  kacsa-hozzárendel
+# KEY                  TRANSLATION
+#core-day-of-week       day-of-week
+#core-day-of-year       day-of-year
+#core-daycount          daycount
+#core-days-in-month     days-in-month
+#core-days-in-year      days-in-year
+#core-dd-mm-yyyy        dd-mm-yyyy
+core-decode            dekódol
+core-deepmap           mély-hozzárendel
+core-defined           definiált
+#core-dev               dev
+#core-devtype           devtype
+#core-diag              diag
+core-die               meghal
+#core-dies-ok           dies-ok
+#core-dir               dir
+#core-dir-with-entries  dir-with-entries
+#core-does-ok           does-ok
+core-done              kész
+core-duckmap           kacsa-hozzárendel
 
 # KEY               TRANSLATION
+#core-eager          eager
+#core-earlier        earlier
 core-elems          elemek
 core-emit           kiküld
 core-encode         enkódol
 core-end            vég
 core-ends-with      ezzel-végződik
+#core-enums          enums
 core-eval-dies-ok   eval-meghal-ok
 core-eval-lives-ok  eval-él-ok
 core-exit           kilép
 core-exp            exp
 core-expmod         expmod
+#core-extension      extension
 
 # KEY              TRANSLATION
 core-fail          meghiúsul
@@ -177,35 +204,45 @@ core-fails-like    meghiúsul-mint
 #core-fc            fc
 core-first         első
 core-flat          lapos
+#core-flatmap       flatmap
 core-flip          visszafelé
 core-floor         alsó-egészrész
 #core-flunk         flunk
 #core-fmt           fmt
+#core-from          from
 #core-full-barrier  full-barrier
 
-# KEY      TRANSLATION
-core-get   bekér-sor
-core-getc  bekér-betű
-core-gist  lényeg
-core-grep  szűr
+# KEY           TRANSLATION
+core-get        bekér-sor
+core-getc       bekér-betű
+core-gist       lényeg
+#core-grab       grab
+#core-grabpairs  grabpairs
+core-grep       szűr
+#core-group      group
 
 # KEY      TRANSLATION
 core-hash  szótár
 core-head  fej
 
-# KEY           TRANSLATION
-core-indent     behúzás
-core-index      index
-core-indices    indexek
-#core-indir      indir
-#core-invert     invert
-core-is         ez
-core-is-approx  nagyjából
-core-is-deeply  teljesen
-core-is-prime   prím-e
-core-isa-ok     ezegy-ok
-core-isnt       eznem
-core-item       elem
+# KEY             TRANSLATION
+#core-im           im
+core-indent       behúzás
+core-index        index
+core-indices      indexek
+#core-indir        indir
+#core-inode        inode
+#core-invert       invert
+#core-IO           IO
+core-is           ez
+#core-is-absolute  is-absolute
+core-is-approx    nagyjából
+core-is-deeply    teljesen
+core-is-prime     prím-e
+#core-is-relative  is-relative
+core-isa-ok       ezegy-ok
+core-isnt         eznem
+core-item         elem
 
 # KEY      TRANSLATION
 core-join  illeszt
@@ -218,6 +255,7 @@ core-kv    ké
 # KEY          TRANSLATION
 core-last      utolsó
 core-lastcall  utolsó-hívás
+#core-later     later
 #core-lc        lc
 core-like      mint
 core-lines     sorok
@@ -226,17 +264,20 @@ core-list      felsorol
 core-lives-ok  él-ok
 core-lsb       alsó-bit
 
-# KEY        TRANSLATION
-core-make    készít
-core-map     hozzárendel
-core-match   paar
-core-max     max
-core-min     min
-core-minmax  minmax
-core-mix     mix
-#core-mkdir   mkdir
-core-move    mozgat
-core-msb     felső-bit
+# KEY            TRANSLATION
+#core-made        made
+core-make        készít
+core-map         hozzárendel
+core-match       paar
+core-max         max
+#core-message     message
+core-min         min
+core-minmax      minmax
+core-mix         mix
+#core-mkdir       mkdir
+#core-mm-dd-yyyy  mm-dd-yyyy
+core-move        mozgat
+core-msb         felső-bit
 
 # KEY            TRANSLATION
 core-new         új
@@ -255,30 +296,45 @@ core-one   egy
 #core-open  open
 core-ord   sorszám
 core-ords  sorszámok
+#core-orig  orig
 
 # KEY              TRANSLATION
 core-pair          pár
 core-pairs         párok
+#core-parent        parent
+#core-parse         parse
 #core-parse-base    parse-base
 core-pass          jó
+#core-path          path
 core-permutations  permutációk
 core-pick          választ
 core-plan          tervez
 #core-pop           pop
+#core-pos           pos
+#core-postmatch     postmatch
+#core-pred          pred
+#core-prematch      prematch
 core-prepend       eléfűz
 core-print         nyomtat
 core-printf        nyomtatf
 core-proceed       továbbhalad
+#core-produce       produce
 #core-prompt        prompt
 core-push          mögészúr
 core-put           kitesz
 
 # KEY            TRANSLATION
+#core-raku        raku
 core-rand        véletlen
+#core-re          re
 core-redo        újra
 core-reduce      redukál
+#core-relative    relative
 core-repeated    ismétlődő
 #core-repl        repl
+#core-resolve     resolve
+#core-resume      resume
+#core-rethrow     rethrow
 #core-return      return
 #core-return-rw   return-rw
 core-reverse     megfordít
@@ -287,6 +343,7 @@ core-rindex      jobbindex
 core-roll        megpörget
 core-roots       gyökök
 core-rotate      forgat
+#core-rotor       rotor
 core-round       kerekít
 #core-roundrobin  roundrobin
 core-run         futtat
@@ -301,6 +358,7 @@ core-set          halmaz
 core-shift        kiléptet
 #core-sign         sign
 core-signal       jelző
+#core-sink         sink
 core-skip         átlép
 core-skip-rest    átlép-maradék
 core-sleep        alszik
@@ -322,11 +380,13 @@ core-squish       összeránt
 core-starts-with  ezzel-kezdődik
 #core-subbuf       subbuf
 #core-subbuf-rw    subbuf-rw
+#core-subparse     subparse
 core-subst        cserél
 #core-substr       substr
 #core-substr-eq    substr-eq
 #core-substr-rw    substr-rw
 core-subtest      alteszt
+#core-succ         succ
 core-succeed      sikerül
 core-sum          összegez
 core-symlink      szimbolikus-link
@@ -335,10 +395,14 @@ core-symlink      szimbolikus-link
 core-tail           farok
 core-take           vesz
 core-take-rw        vesz-ío
+#core-target         target
 #core-tc             tc
 #core-tclc           tclc
 #core-temp           temp
+#core-throw          throw
 core-throws-like    dob-mint
+#core-to             to
+#core-today          today
 core-todo           teendő
 core-trans          fordít
 core-trim           nyír
@@ -362,16 +426,25 @@ core-unlink    elold
 #core-unpolar   unpolar
 core-unshift   elészúr
 core-use-ok    használ-ok
+#core-user      user
 
 # KEY        TRANSLATION
 #core-val     val
 core-value   érték
 core-values  értékek
 
-# KEY          TRANSLATION
-core-warn      figyelmeztet
-#core-wordcase  wordcase
-core-words     szavak
+# KEY                  TRANSLATION
+core-warn              figyelmeztet
+#core-watch             watch
+#core-week              week
+#core-week-number       week-number
+#core-week-year         week-year
+#core-weekday-of-month  weekday-of-month
+#core-wordcase          wordcase
+core-words             szavak
+
+# KEY            TRANSLATION
+#core-yyyy-mm-dd  yyyy-mm-dd
 
 # KEY     TRANSLATION
 #core-zip  zip
@@ -411,6 +484,7 @@ infix-cmp         hasonlít
 infix-div         oszt
 infix-does        csinál
 infix-eq          egyenlő
+#infix-eqv         eqv
 #infix-ff          ff
 #infix-ff^         ff^
 #infix-fff         fff
@@ -434,6 +508,7 @@ infix-orelse      vagyamúgy
 #infix-unicmp      unicmp
 infix-x           x
 infix-X           X
+#infix-xor         xor
 infix-xx          xx
 #infix-Z           Z
 
@@ -475,6 +550,7 @@ named-append    hozzáfűz
 #named-bin        bin
 #named-bleed      bleed
 #named-broadcast  broadcast
+#named-by         by
 
 # KEY             TRANSLATION
 #named-catch       catch
@@ -488,6 +564,7 @@ named-continue    folytat
 #named-control     control
 named-count       darabszám
 #named-create      create
+#named-created     created
 #named-createonly  createonly
 #named-cwd         cwd
 #named-CWD         CWD
@@ -549,13 +626,14 @@ named-listen     hallgat
 #named-localhost  localhost
 #named-localport  localport
 
-# KEY         TRANSLATION
-#named-match   match
-#named-merge   merge
-named-minute  perc
-#named-mm      mm
-named-mode    mód
-named-month   hónap
+# KEY           TRANSLATION
+#named-match     match
+#named-merge     merge
+named-minute    perc
+#named-mm        mm
+named-mode      mód
+#named-modified  modified
+named-month     hónap
 
 # KEY               TRANSLATION
 named-name          név
@@ -773,6 +851,7 @@ trait-is-looser                 lazább
 trait-is-nodal                  nodális
 trait-is-pure                   tiszta
 trait-is-raw                    nyers
+#trait-is-required               required
 trait-is-rw                     írható-olvasható
 #trait-is-test-assertion         test-assertion
 trait-is-tighter                szűkebb
